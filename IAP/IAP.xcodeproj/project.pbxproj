@@ -13,6 +13,7 @@
 		889AB8B622DE749C00BE6409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 889AB8B522DE749C00BE6409 /* Assets.xcassets */; };
 		889AB8B922DE749C00BE6409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 889AB8B722DE749C00BE6409 /* LaunchScreen.storyboard */; };
 		889AB8C222DE804400BE6409 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889AB8C122DE804400BE6409 /* StoreKit.framework */; };
+		889AB8C422DE8A7600BE6409 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889AB8C322DE8A7600BE6409 /* Extensions.swift */; };
 		C72D5629119EA1DC71569BFA /* Pods_IAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6866B2845D09B2B9AD0B80D8 /* Pods_IAP.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		889AB8B822DE749C00BE6409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		889AB8BA22DE749C00BE6409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		889AB8C122DE804400BE6409 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		889AB8C322DE8A7600BE6409 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		BA0F3C6E06F8A109860AF81E /* Pods-IAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAP.release.xcconfig"; path = "Pods/Target Support Files/Pods-IAP/Pods-IAP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -70,6 +72,7 @@
 				889AB8B522DE749C00BE6409 /* Assets.xcassets */,
 				889AB8B722DE749C00BE6409 /* LaunchScreen.storyboard */,
 				889AB8BA22DE749C00BE6409 /* Info.plist */,
+				889AB8C322DE8A7600BE6409 /* Extensions.swift */,
 			);
 			path = IAP;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				889AB8B122DE749800BE6409 /* ViewController.swift in Sources */,
+				889AB8C422DE8A7600BE6409 /* Extensions.swift in Sources */,
 				889AB8AF22DE749800BE6409 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
